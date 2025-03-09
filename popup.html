@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AI Autocomplete</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			width: 300px;
+			padding: 15px;
+		}
+		h1 {
+			font-size: 18px;
+			margin-top: 0;
+		}
+		.info {
+			margin-bottom: 15px;
+			line-height: 1.4;
+		}
+		.button-container {
+			display: flex;
+			justify-content: space-between;
+		}
+		button {
+			background-color: #0060df;
+			color: white;
+			border: none;
+			padding: 8px 12px;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: #003eaa;
+		}
+		.status {
+			margin-top: 10px;
+			padding: 8px;
+			border-radius: 4px;
+			font-size: 14px;
+			display: none;
+		}
+		.success {
+			background-color: #e6ffe6;
+			color: #006600;
+		}
+		.error {
+			background-color: #ffe6e6;
+			color: #990000;
+		}
+	</style>
+</head>
+<body>
+	<h1>AI Autocomplete</h1>
+	
+	<div class="info">
+		<p>Double-tap backtick (`) in any text box to get AI-powered text completion.</p>
+		<p>Status: <span id="status-text">Active</span></p>
+	</div>
+	
+	<div class="button-container">
+		<button id="optionsBtn">Options</button>
+		<button id="testBtn">Test API</button>
+	</div>
+	
+	<div id="api-status" class="status"></div>
+	
+	<script src="popup.js"></script>
+</body>
+</html>
