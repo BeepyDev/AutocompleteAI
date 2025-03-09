@@ -1,9 +1,12 @@
-# AutocompleteAI
+# <img src="https://github.com/user-attachments/assets/d5ea8a18-de29-47a5-b15e-a7c9d74e9d40" alt="Logo" width="40"> AutocompleteAI Extension
+
 ### An AI autocompletion extension for FireFox.
+
+<br>
 
 ## About
 
-The Autocomplete AI extension is an addon for FireFox and forks of it (e.g. Zen Browser). It allows you to double-tap backtick (\`) to trigger an AI-powered text completion. It works on all textareas and other text inputs.
+The Autocomplete AI extension is an addon for FireFox and forks of it (e.g. Zen Browser). It allows you to double-tap backtick (\`) to trigger an AI-powered text completion. It works on all textareas and other text inputs.  
 
 It uses the Google Gemini API, with the 2.0-Flash model.
 
